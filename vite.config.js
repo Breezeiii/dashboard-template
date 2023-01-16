@@ -16,7 +16,7 @@ export default defineConfig({
     postcss: {
       plugins: [
         pxtorem({
-          rootValue: 16, // 1rem的大小
+          rootValue: 192, // 1rem的大小
           propList: ["*"] // 需要转换的属性，这里选择全部都进行转换
         })
       ]
